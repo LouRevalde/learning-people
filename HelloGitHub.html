@@ -5,6 +5,16 @@
 <head>
     <meta charset= "UTF-8" />
     <title>Adding Files to a GIT Repository</title>
+<script>
+    function sing() {
+        var jigglysong = document.getElementById("lyrics").href;
+
+
+
+
+    }
+
+</script>
 <style>
     p {
         text-align: center;
@@ -13,15 +23,34 @@
         font-size: 50px;
         font-weight: bold;
     }
+    span{
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+        color:blueviolet
+        }
+ 
     .img {
         text-align: center;
         padding-top: 20px;
+        padding-bottom: 40 px;
+    }
+    .link {
+        text-align: center;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', Trebuchet MS, sans-serif;
+    }
+    span:hover{
+        color: deeppink;
     }
 </style>
 </head>
 <body>
     <p>Hello GitHub!</p>
-    <div class= img><img src = "images/jigglypuff_cute.jpg" style="width:400px" /></div>
+    <div class= img><img src = "images/jigglypuff_cute.jpg" style="width:400px"/></div><br/>
+    <div class= link><a id=lyrics href="lyrics.html" style= "text-decoration: none; display: block;"><span onclick= sing()>Hear me sing!</span></a></div>
 </body>
 
 </html>
